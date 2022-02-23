@@ -14,13 +14,13 @@
 <title>cluster_ConstraintRuleModule</title>
 <polygon fill="none" stroke="black" stroke-dasharray="1,5" points="8,-32.8 8,-230.8 724,-230.8 724,-32.8 8,-32.8"/>
 </g>
-<g id="clust7" class="cluster">
-<title>cluster_ConstraintRuleModule_exports</title>
-<polygon fill="none" stroke="black" points="16,-170.8 16,-222.8 716,-222.8 716,-170.8 16,-170.8"/>
-</g>
 <g id="clust6" class="cluster">
 <title>cluster_ConstraintRuleModule_imports</title>
 <polygon fill="none" stroke="black" points="609,-40.8 609,-92.8 713,-92.8 713,-40.8 609,-40.8"/>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_ConstraintRuleModule_exports</title>
+<polygon fill="none" stroke="black" points="16,-170.8 16,-222.8 716,-222.8 716,-170.8 16,-170.8"/>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_ConstraintRuleModule_declarations</title>

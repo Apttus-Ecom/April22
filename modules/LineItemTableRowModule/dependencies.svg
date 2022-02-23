@@ -14,10 +14,6 @@
 <title>cluster_LineItemTableRowModule</title>
 <polygon fill="none" stroke="black" stroke-dasharray="1,5" points="8,-32.8 8,-230.8 974,-230.8 974,-32.8 8,-32.8"/>
 </g>
-<g id="clust7" class="cluster">
-<title>cluster_LineItemTableRowModule_exports</title>
-<polygon fill="none" stroke="black" points="248,-170.8 248,-222.8 645,-222.8 645,-170.8 248,-170.8"/>
-</g>
 <g id="clust2" class="cluster">
 <title>cluster_LineItemTableRowModule_declarations</title>
 <polygon fill="none" stroke="black" points="350,-40.8 350,-92.8 966,-92.8 966,-40.8 350,-40.8"/>
@@ -25,6 +21,10 @@
 <g id="clust6" class="cluster">
 <title>cluster_LineItemTableRowModule_imports</title>
 <polygon fill="none" stroke="black" points="16,-40.8 16,-92.8 342,-92.8 342,-40.8 16,-40.8"/>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_LineItemTableRowModule_exports</title>
+<polygon fill="none" stroke="black" points="248,-170.8 248,-222.8 645,-222.8 645,-170.8 248,-170.8"/>
 </g>
 <!-- AdditionalInformationComponent -->
 <g id="node1" class="node">

@@ -18,13 +18,13 @@
 <title>cluster_ComponentModule_imports</title>
 <polygon fill="none" stroke="black" points="833,-40.8 833,-92.8 1747,-92.8 1747,-40.8 833,-40.8"/>
 </g>
-<g id="clust9" class="cluster">
-<title>cluster_ComponentModule_exports</title>
-<polygon fill="none" stroke="black" points="790,-170.8 790,-222.8 1071,-222.8 1071,-170.8 790,-170.8"/>
-</g>
 <g id="clust2" class="cluster">
 <title>cluster_ComponentModule_declarations</title>
 <polygon fill="none" stroke="black" points="16,-40.8 16,-92.8 825,-92.8 825,-40.8 16,-40.8"/>
+</g>
+<g id="clust9" class="cluster">
+<title>cluster_ComponentModule_exports</title>
+<polygon fill="none" stroke="black" points="790,-170.8 790,-222.8 1071,-222.8 1071,-170.8 790,-170.8"/>
 </g>
 <!-- AttachmentComponent -->
 <g id="node1" class="node">
