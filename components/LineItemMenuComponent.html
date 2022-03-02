@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Conga Digital Commerce April &#x27;22</title>
+        <title>Conga Digital Commerce May &#x27;22</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,7 +15,7 @@
     <body>
 
         <div class="navbar navbar-default navbar-fixed-top visible-xs">
-            <a href="../" class="navbar-brand">Conga Digital Commerce April &#x27;22</a>
+            <a href="../" class="navbar-brand">Conga Digital Commerce May &#x27;22</a>
             <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
         </div>
 
@@ -361,7 +361,7 @@ export class AppModule {}</code></pre></div><p><apt-line-item-menu></apt-line-it
 
     <div class="tab-pane fade " id="c-templateData">
         <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;dropdown&quot; dropdown (onHidden)&#x3D;&quot;saveSelections()&quot; [insideClick]&#x3D;&quot;true&quot;&gt;
-    &lt;button id&#x3D;&quot;dropdownLabel&quot; class&#x3D;&quot;dropdown-toggle btn btn-icon btn-link&quot; dropdownToggle
+    &lt;button id&#x3D;&quot;dropdownLabel&quot; class&#x3D;&quot;dropdown-toggle btn btn-icon btn-link text-primary bg-white&quot; dropdownToggle
         aria-controls&#x3D;&quot;dropdownMenu&quot;&gt;
         &lt;i class&#x3D;&quot;fa fa-md fa-table mr-1&quot;&gt;&lt;/i&gt;
         {{&#x27;COMMON.EDIT_LAYOUT&#x27; | translate }}
@@ -404,6 +404,15 @@ button {
 ::-webkit-scrollbar-thumb {
     background: rgb(222, 222, 222);
     border-radius: 0.35rem;
+}
+.dropdown-menu {
+
+    .dropdown-item{
+
+        line-height: unset;
+        padding-bottom: unset;
+        min-height: unset;
+    }
 }</code></pre>
     </div>
 
@@ -432,7 +441,7 @@ button {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><div class="dropdown" dropdown (onHidden)="saveSelections()" [insideClick]="true">    <button id="dropdownLabel" class="dropdown-toggle btn btn-icon btn-link" dropdownToggle        aria-controls="dropdownMenu">        <i class="fa fa-md fa-table mr-1"></i>        {{\'COMMON.EDIT_LAYOUT\' | translate }}    </button>    <div id="dropdownMenu" *dropdownMenu class="dropdown-menu overflow-auto" aria-labelledby="dropdownLabel">        <span *ngFor="let item of (menuItems$ | async)" class="dropdown-item">            <div class="ml-2">                <input class="form-check-input checkbox" type="checkbox" [checked]="item.isSelected"                    (change)="handleCheckbox(item)" value="item?.id" [id]="item?.id">                <label class="form-check-label" [class.font-weight-bold]="item.isSelected"                    [for]="item?.id">{{item?.label}}</label>            </div>        </span>    </div></div></div>'
+        var COMPONENT_TEMPLATE = '<div><div class="dropdown" dropdown (onHidden)="saveSelections()" [insideClick]="true">    <button id="dropdownLabel" class="dropdown-toggle btn btn-icon btn-link text-primary bg-white" dropdownToggle        aria-controls="dropdownMenu">        <i class="fa fa-md fa-table mr-1"></i>        {{\'COMMON.EDIT_LAYOUT\' | translate }}    </button>    <div id="dropdownMenu" *dropdownMenu class="dropdown-menu overflow-auto" aria-labelledby="dropdownLabel">        <span *ngFor="let item of (menuItems$ | async)" class="dropdown-item">            <div class="ml-2">                <input class="form-check-input checkbox" type="checkbox" [checked]="item.isSelected"                    (change)="handleCheckbox(item)" value="item?.id" [id]="item?.id">                <label class="form-check-label" [class.font-weight-bold]="item.isSelected"                    [for]="item?.id">{{item?.label}}</label>            </div>        </span>    </div></div></div>'
     var COMPONENTS = [{'name': 'AdditionalInformationComponent', 'selector': 'apt-additional-information'},{'name': 'AddressComponent', 'selector': 'apt-address'},{'name': 'AddToCartComponent', 'selector': 'apt-add-to-cart'},{'name': 'AlertComponent', 'selector': 'apt-alert'},{'name': 'AssetDropdownButtonComponent', 'selector': 'apt-asset-dropdown-button'},{'name': 'AssetListComponent', 'selector': 'apt-asset-list'},{'name': 'BreadcrumbComponent', 'selector': 'apt-breadcrumb'},{'name': 'CategoryFilterComponent', 'selector': 'apt-category-filter'},{'name': 'ChartComponent', 'selector': 'apt-chart'},{'name': 'ConstraintRuleAlertComponent', 'selector': 'apt-constraint-rule-alert'},{'name': 'ConstraintRuleSidebarComponent', 'selector': 'apt-constraint-rule-sidebar'},{'name': 'CRIconComponent', 'selector': 'apt-cr-constraint-icon'},{'name': 'CRRecommendedProductsComponent', 'selector': 'apt-cr-recommended-products'},{'name': 'DataFilterComponent', 'selector': 'apt-data-filter'},{'name': 'DotsComponent', 'selector': 'apt-dots'},{'name': 'FavoriteModalComponent', 'selector': 'apt-favorite-modal'},{'name': 'FilesComponent', 'selector': 'apt-files'},{'name': 'GenerateDocumentComponent', 'selector': 'apt-generate-document'},{'name': 'InputDateComponent', 'selector': 'apt-date-range-input'},{'name': 'InputFieldComponent', 'selector': 'apt-input-field'},{'name': 'InputSelectComponent', 'selector': 'apt-input-select'},{'name': 'JumbotronComponent', 'selector': 'apt-jumbotron'},{'name': 'LineitemCardComponent', 'selector': 'apt-lineitem-card'},{'name': 'LineItemMenuComponent', 'selector': 'apt-line-item-menu'},{'name': 'LineItemTableRowComponent', 'selector': 'apt-line-item-table-row'},{'name': 'LoginFormComponent', 'selector': 'apt-login-form'},{'name': 'MiniCartComponent', 'selector': 'apt-mini-cart'},{'name': 'MiniProfileComponent', 'selector': 'apt-mini-profile'},{'name': 'OutputFieldComponent', 'selector': 'apt-output-field'},{'name': 'PaymentComponent', 'selector': 'apt-payment'},{'name': 'PaymentIFrameComponent', 'selector': 'apt-payment-iframe'},{'name': 'PresentDocumentComponent', 'selector': 'apt-present-document'},{'name': 'PriceComponent', 'selector': 'apt-price'},{'name': 'PriceModalComponent', 'selector': 'apt-price-modal'},{'name': 'PriceSummaryComponent', 'selector': 'apt-price-summary'},{'name': 'ProductCardComponent', 'selector': 'apt-product-card'},{'name': 'ProductCarouselComponent', 'selector': 'apt-product-carousel'},{'name': 'ProductCompareComponent', 'selector': 'apt-product-compare'},{'name': 'ProductConfigurationComponent', 'selector': 'apt-product-configuration'},{'name': 'ProductConfigurationSummaryComponent', 'selector': 'apt-product-configuration-summary'},{'name': 'ProductDrawerComponent', 'selector': 'apt-product-drawer'},{'name': 'ProductImagesComponent', 'selector': 'apt-product-images'},{'name': 'ProductSearchComponent', 'selector': 'apt-product-search'},{'name': 'ProductTypeFilterComponent', 'selector': 'apt-product-type-filter'},{'name': 'PromotionComponent', 'selector': 'apt-promotion'},{'name': 'PromotionModalComponent', 'selector': 'apt-pr-modal'},{'name': 'RevalidateCartModalComponent', 'selector': 'apt-revalidate-cart-modal'},{'name': 'SelectAllComponent', 'selector': 'apt-select-all'},{'name': 'SpinnerComponent', 'selector': 'apt-spinner'},{'name': 'TableComponent', 'selector': 'apt-table'},{'name': 'TaxPopHoverComponent', 'selector': 'apt-tax-pophover'}];
     var DIRECTIVES = [{'name': 'AutoFocusDirective', 'selector': '[aptAutoFocus]'}];
     var ACTUAL_COMPONENT = {'name': 'LineItemMenuComponent'};
